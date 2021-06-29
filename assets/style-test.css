@@ -6,13 +6,9 @@
 
 body {
     font-family: helvetica, Arial, sans-serif;
-    background-color: red;
+    background-color: #d6d6d6;
     color: #4e4c4c;
     font-size: 18px;
-}
-
-.test {
-    background-color: darkgreen;
 }
 
 /* Header */
@@ -50,7 +46,7 @@ header nav ul li {
 /* Banner image */
 .hero {
     height: 225px;
-    background-image: url(../images/banner.jpg);
+    background-image: url(./images/banner.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
