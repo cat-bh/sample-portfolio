@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: helvetica, Arial, sans-serif;
+    background-color: red;
+    color: #4e4c4c;
+    font-size: 18px;
+}
+
+.test {
+    background-color: darkgreen;
+}
+
+/* Header */
+header {
+    background-color: #661e2a;
+    color: rgb(222 222 222);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px 20px 0;
+}
+
+header h1 {
+    font-weight: lighter;
+    font-size: 45px;
+    background-color: rgb(222 222 222);
+    padding: 5px 10px 5px 30px;
+    margin-left: 0;
+    color: #4e4c4c;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    list-style: none;
+    font-size: 24px;
+    padding-left: 20px;
+    font-weight: lighter;
+}
+
+/* Banner image */
+.hero {
+    height: 225px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.subtitle {
+    background-color: rgb(222 222 222);
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    display: inline;
+}
+
+.subtitle h2 {
+    font-weight: lighter;
+    font-size: 40px;
+    padding: 5px 30px;
+    text-align: center;
+}
+
+/* Sections */
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 35px;
+}
+
+.section-title {
+    flex: 0 25%;
+    border-right: 3px solid;
+    border-color: #661e2a;
+    font-size: 40px;
+    text-align: right;
+    padding: 10px 20px;
+    font-weight: 400;
+}
+
+/* about me section */ 
+.bio {
+    flex: 0 70%;
+    margin: 0 20px 20px 40px;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
