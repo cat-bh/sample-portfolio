@@ -45,6 +45,11 @@ header nav ul li {
     font-weight: lighter;
 }
 
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(222 222 222);
+}
+
 /* Banner image */
 .hero {
     height: 225px;
@@ -114,6 +119,11 @@ header nav ul li {
 .work-section img {
     width: 100%;
     height: auto;
+    opacity: .5;
+}
+
+.work-section img:hover {
+    opacity: 95%;
 }
 
 /* try using first child? */
@@ -130,12 +140,15 @@ header nav ul li {
     position: absolute;
     left: 0;
     bottom: 15px;
+    font-weight: lighter;
 }
 
 
 .image-info h4 {
     font-size: 25px; 
     font-weight: lighter;
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
 }
 
 /* Contact section */
