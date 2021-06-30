@@ -104,24 +104,38 @@ header nav ul li {
 
 .application {
     width: 49%;
-    border: 2px solid #661e2a;
+    height: 200px;
+    border: 4px solid #283d3b;
     margin-bottom: 15px;
-    
+    position: relative;
+    overflow: hidden;
 }
 
 .work-section img {
     width: 100%;
-
+    height: auto;
 }
 
+/* try using first child? */
 .main-image {
     width: 100%;
+    height: 300px;
 }
 
-.image-info h4,
-.image-info p {
-    display: inline;
-    
+.image-info {
+    background-color: #283d3b;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+}
+
+
+.image-info h4 {
+    font-size: 25px; 
+    font-weight: lighter;
 }
 
 /* Contact section */
