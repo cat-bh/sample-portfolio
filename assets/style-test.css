@@ -32,6 +32,7 @@ header h1 {
     color: #4e4c4c;
 }
 
+/* Navigation bar */
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -48,6 +49,8 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: rgb(222 222 222);
+    border-bottom: 3px solid rgb(222 222 222);
+    padding: 0 2px;
 }
 
 /* Banner image */
@@ -59,6 +62,7 @@ header nav ul li a {
     position: relative;
 }
 
+/* Subtitle */
 .subtitle {
     background-color: rgb(222 222 222);
     position: absolute;
@@ -99,6 +103,7 @@ header nav ul li a {
     font-weight: lighter;
 }
 
+/* Work section */
 .work-section {
     flex: 1 70%;
     display: flex;
@@ -132,6 +137,7 @@ header nav ul li a {
     height: 300px;
 }
 
+/* Image titles */
 .image-info {
     background-color: #283d3b;
     color: white;
@@ -171,5 +177,42 @@ footer {
 
 .contact-info li {
     padding: 10px 15px;
+    
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #4e4c4c;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 980px) {
+    header nav {
+        margin-top: 10px;
+    }
+
+    .application {
+        height: 160px;
+    }
+
+    .main-image {
+        height: 230px;
+    }
+
+    #contact {
+        flex-wrap: wrap;
+        border-top: 3px solid;
+    }
+
+    #contact .section-title {
+        flex: 100%;
+        border-right: none;
+        text-align: center;
+    }
+
+    footer {
+        flex: 100%;
+    }
     
 }
